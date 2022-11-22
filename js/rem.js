@@ -1,5 +1,6 @@
 function remSize(){
-    var devichwidth=document.documentElement.clientWidth||window.innerWidth;
+    var devichwidth=document.documentElement.clientWidth;
+    // var devichwidth=document.documentElement.clientWidth||window.innerWidth;
     if(devichwidth>=750){
         devichwidth=750
     }
